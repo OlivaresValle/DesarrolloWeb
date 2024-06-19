@@ -1,0 +1,11 @@
+.border-box{
+    border: solid 1px black;
+    /* margin es para hacer margenes o centrar un poco el contenido */
+    margin: 50px;
+    /* padding es un relleno interno del contenido  */
+    padding: 20px;
+}
+/* EN EL MODELO EN CASCADA LA ULTIMA REGLA ES LA QUE SIEMPRE SE APLICA PRIMERO */
+p{
+    color: red;
+}
