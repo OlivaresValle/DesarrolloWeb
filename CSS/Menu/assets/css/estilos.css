@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.menu-navegacion{
+    background-color: #729e2e;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu-navegacion li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.menu-navegacion a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-navegacion a:hover{
+    color: black;
+   
+}
