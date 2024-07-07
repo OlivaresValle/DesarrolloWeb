@@ -1,0 +1,15 @@
+d:\Descargas\Visual Studio Code\CSharp\bin\Debug\net8.0\CSharp.exe
+d:\Descargas\Visual Studio Code\CSharp\bin\Debug\net8.0\CSharp.deps.json
+d:\Descargas\Visual Studio Code\CSharp\bin\Debug\net8.0\CSharp.runtimeconfig.json
+d:\Descargas\Visual Studio Code\CSharp\bin\Debug\net8.0\CSharp.dll
+d:\Descargas\Visual Studio Code\CSharp\bin\Debug\net8.0\CSharp.pdb
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.GeneratedMSBuildEditorConfig.editorconfig
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.AssemblyInfoInputs.cache
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.AssemblyInfo.cs
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.csproj.CoreCompileInputs.cache
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.sourcelink.json
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.dll
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\refint\CSharp.dll
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.pdb
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\CSharp.genruntimeconfig.cache
+d:\Descargas\Visual Studio Code\CSharp\obj\Debug\net8.0\ref\CSharp.dll
