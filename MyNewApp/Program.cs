@@ -79,6 +79,7 @@ app.Run();
 //creacion del esqueleto de la lista
 public record Todo(int Id, string Name, DateTime DueDate, bool IsCompleted){}
 
+// se crea la interface para utilizar los metodos mencionados de forma mas eficiente.
 interface ITaskService
 {
     Todo? GetTodoById(int Id);
@@ -90,6 +91,7 @@ interface ITaskService
     Todo AddTodo(Todo task);
 }
 
+    //se crea una clase para luego poder implementarla en una interface y utilizar los metodos de forma mas eficiente
     class InMemoryTaskService : ITaskService
     {
         private readonly List<Todo> _todos = [];
