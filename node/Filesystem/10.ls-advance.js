@@ -24,12 +24,14 @@ fs.readdir(folder)
     async function ls (folder){
         let files
         try {
+            //se espera hasta terminar de leer el directorio
             files = await fs.readdir(folder)
         } catch{
             console.error('No se pudo leer el directorio ${folder}')
             process.exit(1)
         }
 
+        //recuperamos la informacion de todos archivos del directorio
         const filePromises = files.map(async file => {
             const filePath = path.join (folder,file)
             let stats
