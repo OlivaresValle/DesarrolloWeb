@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises')
 const path = require('node:path')
-
+const picocolors = require('picocolors')
 const folder = process.argv[2] ?? '.'
 /*
 fs.readdir(folder)
@@ -27,7 +27,7 @@ fs.readdir(folder)
             //se espera hasta terminar de leer el directorio
             files = await fs.readdir(folder)
         } catch{
-            console.error('No se pudo leer el directorio ${folder}')
+            console.error(picocolors.red('No se pudo leer el directorio ${folder}'))
             process.exit(1)
         }
 
@@ -48,7 +48,7 @@ fs.readdir(folder)
             const fileModified = stats.mtime.toLocaleString()
 
             //ATENCION usar comillas invertidas para retornar valores con $ ``  
-            return `${fileType} ${file.padEnd(20)} ${fileSize.toString().padStart(10)} ${fileModified}`
+            return `${fileType} ${picocolors.blue(file.padEnd(20))} ${picocolors.green(fileSize).toString().padStart(10)} ${picocolors.yellow(fileModified)}`
         })
        
         //info de todos los archivos
